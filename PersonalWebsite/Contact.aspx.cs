@@ -11,9 +11,9 @@ namespace PersonalWebsite
 {
     public partial class Contact : Page
     {
-        const String FROM = "brendenowens@gmail.com";
-        const String MAIL_SERVER = "smtp-mail.outlook.com";
-        const String TO = "bowens94@hotmail.com";
+        const String FROM = "";
+        const String MAIL_SERVER = "";
+        const String TO = "";
 
         protected void Page_Load(object sender, EventArgs e)
         {
@@ -23,7 +23,7 @@ namespace PersonalWebsite
         protected void SendMail()
         {
             //Password of your gmail address
-            const string fromPassword = "BMOBBTKD1";
+            const string fromPassword = "";
             // Passing the values and make a email formate to display
             string subject = "Message From Your Personal Website";
             string body = "From: " + Name.Text + "\n";
