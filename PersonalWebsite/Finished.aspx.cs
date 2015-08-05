@@ -24,7 +24,7 @@ namespace PersonalWebsite
             foreach (var line in lines)
             {
                 var splitLine = line.Split('$');
-                if (splitLine[4] == "True")
+                if (splitLine[5] == "True")
                 {
                     if (count % 2 == 1)
                     {

@@ -22,7 +22,7 @@ namespace PersonalWebsite
             foreach (var line in lines)
             {
                 var splitLine = line.Split('$');
-                if (splitLine[4] == "False")
+                if (splitLine[5] == "False")
                 {
                         if (count % 2 == 1)
                         {
