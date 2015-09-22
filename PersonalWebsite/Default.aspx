@@ -4,7 +4,7 @@
 
     <div class="jumbotron">
         <h1>Brenden Owens</h1>
-        <p class="lead">Welcome to my website. This site is my ongoing resume and project to show off my skills. It is built off of C#, ASP.NET web forms, bootstrap, and MSSQL database backend. It's even open source.</p>
+        <p class="lead">Welcome to my website. This site is my ongoing resume and project to show off my skills. It is built off of C#, ASP.NET web forms, bootstrap, and currently uses a .csv file backend due to restrictions. When I have the MySQL database backend up and running it will have a database backend supporting it. It's even open source.</p>
         <p><a href="https://github.com/brendenowens/PersonalWebsite" class="btn btn-primary btn-lg">Source Code &raquo;</a></p>
     </div>
 
